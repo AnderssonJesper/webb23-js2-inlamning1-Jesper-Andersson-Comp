@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sten Sax Påse</title>
+<link rel="stylesheet" href="css/style.css">  
+  <script src="javascripts.js" type="module"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sten Sax Påse</h1>
+
+        <form id="player-form">
+            <input type="text" id="playerName" placeholder="Ange ditt namn">
+            <button type="submit">Starta spelet</button>
+        </form>
+
+        <div id="playerNameDisplay"></div>
+
+        <div class="play-buttons">
+            <button class="play-button" data-choice="rock">Sten</button>
+            <button class="play-button" data-choice="paper">Påse</button>
+            <button class="play-button" data-choice="scissors">Sax</button>
+        </div>
+
+        <div id="playerChoice">Ditt val:</div>
+        <div id="computerChoice">Datorns val:</div>
+        <div id="result"></div>
+        <div id="winner"></div>
+        <div id="playerScore">Din poäng: 0</div>
+
+        <h2>Highscore listan</h2>
+        <ul id="highscoreList"></ul>
+
+        
+    </div>
+</body>
+
+</html>
